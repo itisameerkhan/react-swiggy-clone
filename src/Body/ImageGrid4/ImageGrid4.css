@@ -1,0 +1,25 @@
+.img-grid-container-4
+{
+    margin-top: 70px;
+}
+.img-grids
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h2 
+{
+    margin-bottom: 20px;
+}
+.img-grid-4 
+{
+    min-width:  273px;
+    height: 182px;
+    border-radius: 20px;
+    cursor: pointer;
+    object-fit: cover;
+    object-position: center;
+}

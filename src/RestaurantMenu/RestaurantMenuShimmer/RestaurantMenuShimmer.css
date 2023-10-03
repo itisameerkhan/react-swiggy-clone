@@ -1,0 +1,54 @@
+.res-menu-shimmer-container
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.res-menu-shimmer
+ {
+    margin-top: 150px;
+    width: 80%;
+ }
+ .shimm
+{
+    height: 20px;
+    width: 300px;
+    background-color: rgb(213, 212, 212);
+    margin: 5px 0;
+    border-radius: 5px;
+    animation: flicker 1s infinite;
+}
+.shi-1 
+{
+    width: 500px;
+    height: 24px;
+    margin-bottom: 15px;
+}
+.shi-2 
+{
+    width: 250px;
+}
+.shi-3 
+{
+    width: 400px;
+}
+.shi-4 
+{
+    width: 200px;
+}
+.shi-5 
+{
+    width: 500px;
+}
+.shim-cont
+{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+.shi-6, .shi-7
+{
+    height: 100px;
+    width: 100%;
+}

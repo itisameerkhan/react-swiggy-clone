@@ -1,0 +1,19 @@
+.footer-container 
+{
+    background-color: #02060C;
+    color:white;
+    display: flex;
+    padding:50px;
+    justify-content: space-around;
+}
+.footer-logo
+{
+    height: 40px;
+}
+ul li
+{
+    list-style-type: none;
+    padding: 5px 0;
+    color:rgb(154, 152, 152);
+    cursor: pointer;
+}
