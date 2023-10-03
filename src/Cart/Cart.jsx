@@ -28,14 +28,14 @@ const Cart = () => {
                </div>
                <div className="carts-items">
                 {cartItems.map((item) => (
-                    <div className="cart-item">
+                    <div className="cart-item" key={item?.card?.info?.id}>
                         <p>{item?.card?.info?.name}</p>
                         <p>₹ {(item?.card?.info?.price/100).toFixed(2)}</p>
                     </div>
                 ))}
                 <div className="tot-items">
                     <h3>Total</h3>
-                    <h3>₹  {total}</h3>
+                    <h3>₹  {total.toFixed(2)}</h3>
                 </div>
                 <button className="clr-cart" onClick={HandleClearEvent}>Clear Cart</button>
                </div>

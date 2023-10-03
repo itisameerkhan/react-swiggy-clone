@@ -2,6 +2,7 @@ import './Header.css'
 import logo from '../assets/swiggylogo.png';
 import { Link, NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import MainLogo from '../assets/MainLogo.svg';
 
 const Header = () => {
   
@@ -12,7 +13,7 @@ const Header = () => {
         <div className='header'>
           <div className="header-left">
           <Link to={'/'}>
-          <img src={logo} alt="logo" className='swiggy-logo' />
+          <img src={MainLogo} alt="logo" className='swiggy-logo' />
           </Link>
           <p id='header-location'>Chennai, TamilNadu, India
           <i className="fa-solid fa-chevron-down"></i></p>
