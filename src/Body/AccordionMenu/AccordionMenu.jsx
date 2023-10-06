@@ -1,6 +1,5 @@
 import { CDN_URL } from '../../utils/Constants';
 import './AccordionMenu.css';
-import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addItem } from '../../Redux/cartSlice';
 
