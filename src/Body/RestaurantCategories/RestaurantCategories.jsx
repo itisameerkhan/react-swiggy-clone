@@ -19,5 +19,4 @@ const RestaurantCategories = ({resCategory, showItems, setShowIndex}) => {
         </div>
     )
 }
-
 export default RestaurantCategories;
