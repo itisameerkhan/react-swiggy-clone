@@ -1,5 +1,4 @@
 import './Header.css'
-import logo from '../assets/swiggylogo.png';
 import { Link, NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import MainLogo from '../assets/MainLogo.svg';
