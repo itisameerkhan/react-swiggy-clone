@@ -22,7 +22,7 @@ const AccordionMenu = ({data}) => {
                  </div>
                  <div className="accordion-main-right">
                     <img src={CDN_URL + list?.card?.info?.imageId} alt="" className='accordion-img' />
-                    <button className='accordion-add-btn' onClick={() => HandleAddItems(list)}>Add</button>
+                    <button className='accordion-add-btn' onClick={() => HandleAddItems(list)}>ADD</button>
                  </div>
                </div>
             ))}
