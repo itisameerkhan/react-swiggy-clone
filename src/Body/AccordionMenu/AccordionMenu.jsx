@@ -11,6 +11,7 @@ const AccordionMenu = ({data}) => {
         // dispatch action
         dispatch(addItem(list))
     }
+    
     return (
         <div className="accordion-container" key={data?.card?.info?.name}>
             {data.map((list) => (
