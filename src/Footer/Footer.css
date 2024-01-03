@@ -9,6 +9,8 @@
 .footer-logo
 {
     height: 40px;
+    margin-bottom: 10px;
+    transition: all 200ms ease-in-out;
 }
 ul li
 {
@@ -16,4 +18,9 @@ ul li
     padding: 5px 0;
     color:rgb(154, 152, 152);
     cursor: pointer;
+}
+.footer-logo:hover 
+{
+    transform: scale(1.18);
+    border-radius: 8px;
 }

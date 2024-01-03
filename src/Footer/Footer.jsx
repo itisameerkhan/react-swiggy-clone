@@ -1,11 +1,14 @@
 import './Footer.css';
+import akLogo from '../../src/assets/aklogomain.svg';
 
 const Footer = () => {
     return (
         <div className="footer-container">
             <div className="footer-1">
-                <img src="https://driver-media-assets.swiggy.com/drivers/q_auto,f_auto,fl_lossy,c_fill/ride-with-us/icons/footer.png" alt="" className='footer-logo' />
-                <p>© 2023 Bundl Technologies Pvt. Ltd</p>
+                <a href="https://github.com/itisameerkhan/react-swiggy-clone" target='_blank'>
+                <img src={akLogo} alt="" className='footer-logo' />
+                </a>
+                <p>© 2023 Developed by Ameer khan B</p>
             </div>
             <div className="footer-2">
                 <h3>Company</h3>
